@@ -1,0 +1,11 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+        int [] oldArray = {1, 5, 6, 10, 25, 17};
+
+       for(int i = 0; i < oldArray.length-1; i++){
+           System.out.print(oldArray[i]);
+       }
+
+    }
+}
